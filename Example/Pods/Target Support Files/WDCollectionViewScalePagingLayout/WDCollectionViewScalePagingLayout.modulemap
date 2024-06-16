@@ -1,0 +1,6 @@
+framework module WDCollectionViewScalePagingLayout {
+  umbrella header "WDCollectionViewScalePagingLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_WDCollectionViewScalePagingLayout_Example {
+  umbrella header "Pods-WDCollectionViewScalePagingLayout_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

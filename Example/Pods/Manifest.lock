@@ -1,0 +1,16 @@
+PODS:
+  - WDCollectionViewScalePagingLayout (0.1.0)
+
+DEPENDENCIES:
+  - WDCollectionViewScalePagingLayout (from `../`)
+
+EXTERNAL SOURCES:
+  WDCollectionViewScalePagingLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WDCollectionViewScalePagingLayout: 92506315c2cfa9d0d6269f360320f974776359d4
+
+PODFILE CHECKSUM: 1d9855c72b7c85d2112b8e5afbbfd738f22e1f1d
+
+COCOAPODS: 1.14.2
