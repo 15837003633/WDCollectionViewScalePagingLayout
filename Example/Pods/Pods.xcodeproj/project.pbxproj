@@ -28,26 +28,26 @@
 
 /* Begin PBXFileReference section */
 		0CA7BD40FD17344988B00EBA296F89C5 /* Pods-WDCollectionViewScalePagingLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WDCollectionViewScalePagingLayout_Example.modulemap"; sourceTree = "<group>"; };
-		1062086D5AEE9DBFC694820FAB2A538F /* WDCollectionViewScalePagingLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WDCollectionViewScalePagingLayout; path = WDCollectionViewScalePagingLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1062086D5AEE9DBFC694820FAB2A538F /* WDCollectionViewScalePagingLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WDCollectionViewScalePagingLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BA30873DD05441DCDEEF06FCA409EE /* Pods-WDCollectionViewScalePagingLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDCollectionViewScalePagingLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		18BAD18405D366878AD100D592AEF671 /* WDCollectionViewScalePagingLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WDCollectionViewScalePagingLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18BAD18405D366878AD100D592AEF671 /* WDCollectionViewScalePagingLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WDCollectionViewScalePagingLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B56C55E3E936F0A57B793133D0BA8B6 /* Pods-WDCollectionViewScalePagingLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WDCollectionViewScalePagingLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		1CE08E7C18A9479641313C7F64757851 /* WDCollectionViewScalePagingLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDCollectionViewScalePagingLayout.release.xcconfig; sourceTree = "<group>"; };
 		1D5ABB3F09F807479F7770621604B8B9 /* WDCollectionViewScalePagingLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDCollectionViewScalePagingLayout-dummy.m"; sourceTree = "<group>"; };
 		254036FF6D5CC9A1367365C809BC3CFF /* WDCollectionViewScalePagingLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDCollectionViewScalePagingLayout-umbrella.h"; sourceTree = "<group>"; };
 		43C7E69528953046B207192FE33FC10D /* Pods-WDCollectionViewScalePagingLayout_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WDCollectionViewScalePagingLayout_Example"; path = Pods_WDCollectionViewScalePagingLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D5A5CEB436B18F44E7A004351F578C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		52D5A5CEB436B18F44E7A004351F578C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		64E763168227C4C8AA531AE5BC9AACDF /* WDCollectionViewScalePagingLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDCollectionViewScalePagingLayout-prefix.pch"; sourceTree = "<group>"; };
 		6869B4D0216A4A42581E7F52A1CF7E31 /* WDCollectionViewScalePagingLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDCollectionViewScalePagingLayout.debug.xcconfig; sourceTree = "<group>"; };
 		6EAE12D085FBDB6F54806A588D87604B /* Pods-WDCollectionViewScalePagingLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDCollectionViewScalePagingLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		913B3064CAE8E3AB7C08D1D9746B0820 /* WDCollectionViewScalePagingLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WDCollectionViewScalePagingLayout-Info.plist"; sourceTree = "<group>"; };
 		9A70473D7A7F62F24CD149E4E250813B /* Pods-WDCollectionViewScalePagingLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDCollectionViewScalePagingLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A301C6CEC29EA37FCAF87E137AD46BD4 /* Pods-WDCollectionViewScalePagingLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDCollectionViewScalePagingLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BF1D6D643B079753F855ADB72CC7633B /* Pods-WDCollectionViewScalePagingLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WDCollectionViewScalePagingLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C7F5909FEAA6279726E1BA265613769C /* Pods-WDCollectionViewScalePagingLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDCollectionViewScalePagingLayout_Example-dummy.m"; sourceTree = "<group>"; };
-		CC1605E5D4472EA9F95EEDF7E8758003 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CC1605E5D4472EA9F95EEDF7E8758003 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D1D8243EAA0533A8ED6CDC537A93BB07 /* WDCollectionViewScalePagingLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WDCollectionViewScalePagingLayout.modulemap; sourceTree = "<group>"; };
 		D2B34A2D52E6E4539ADAC5DDAFF8B1D8 /* WDCollectionViewScalePagingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WDCollectionViewScalePagingLayout.swift; path = WDCollectionViewScalePagingLayout/Classes/WDCollectionViewScalePagingLayout.swift; sourceTree = "<group>"; };
 		D688167740B2F479039895DE7994BBC9 /* Pods-WDCollectionViewScalePagingLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDCollectionViewScalePagingLayout_Example-Info.plist"; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				43C7E69528953046B207192FE33FC10D /* Pods-WDCollectionViewScalePagingLayout_Example */,
-				1062086D5AEE9DBFC694820FAB2A538F /* WDCollectionViewScalePagingLayout */,
+				1062086D5AEE9DBFC694820FAB2A538F /* WDCollectionViewScalePagingLayout.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,7 +234,7 @@
 			);
 			name = WDCollectionViewScalePagingLayout;
 			productName = WDCollectionViewScalePagingLayout;
-			productReference = 1062086D5AEE9DBFC694820FAB2A538F /* WDCollectionViewScalePagingLayout */;
+			productReference = 1062086D5AEE9DBFC694820FAB2A538F /* WDCollectionViewScalePagingLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -328,7 +328,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WDCollectionViewScalePagingLayout/WDCollectionViewScalePagingLayout-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WDCollectionViewScalePagingLayout/WDCollectionViewScalePagingLayout-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WDCollectionViewScalePagingLayout/WDCollectionViewScalePagingLayout.modulemap";
 				PRODUCT_MODULE_NAME = WDCollectionViewScalePagingLayout;
@@ -360,7 +360,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WDCollectionViewScalePagingLayout/WDCollectionViewScalePagingLayout-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WDCollectionViewScalePagingLayout/WDCollectionViewScalePagingLayout-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WDCollectionViewScalePagingLayout/WDCollectionViewScalePagingLayout.modulemap";
 				PRODUCT_MODULE_NAME = WDCollectionViewScalePagingLayout;
@@ -430,8 +430,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
