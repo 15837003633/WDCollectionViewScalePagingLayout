@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WDCollectionViewScalePagingLayout_Example' do
+  pod 'WDCollectionViewScalePagingLayout', :path => '../'
+
+  target 'WDCollectionViewScalePagingLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
