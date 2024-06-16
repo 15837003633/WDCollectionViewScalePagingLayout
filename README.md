@@ -1,0 +1,2 @@
+# WDCollectionViewScalePagingLayout
+自定义UICollectionViewLayout，实现分页缩放滚动效果
