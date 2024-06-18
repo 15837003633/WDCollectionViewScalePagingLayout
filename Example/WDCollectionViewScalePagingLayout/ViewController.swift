@@ -18,17 +18,11 @@ class ViewController: UIViewController {
     }
     
     lazy var my_collectinview: UICollectionView = {
-//        let layout = CustomCollectionFlowLayout()
-//        layout.scrollDirection = .vertical
-//        layout.itemSize = CGSizeMake(100, 300)
-//        layout.headerReferenceSize = CGSizeMake(200, 20)
-//        layout.sectionInset = .init(top: 50, left: 50, bottom: 50, right: 50)
+
         
-        let layout = WDCollectionViewScalePagingLayout()
-        layout.interitemSpacing = 0
-        layout.itemSize = CGSize(width: 255, height: 380)
+        let layout = self.coverFlowLayout
         
-        let collecttionview = UICollectionView(frame: self.view.bounds, collectionViewLayout: layout)
+        let collecttionview = UICollectionView(frame: CGRectMake(0, 200, self.view.frame.size.width, 300), collectionViewLayout: layout)
         collecttionview.delegate = self
         collecttionview.dataSource = self
 //        注册cell
@@ -38,9 +32,34 @@ class ViewController: UIViewController {
         
         return collecttionview
     }()
+    
+    //基于UICollectionViewLayout自定义布局
+    lazy var scalePagingLayout: WDCollectionViewScalePagingLayout = {
+        let layout = WDCollectionViewScalePagingLayout()
+        layout.interitemSpacing = 0
+        layout.itemSize = CGSize(width: 255, height: 380)
+        return layout
+    }()
+    
+    //基于UICollectionViewFlowLayout自定义布局
+    lazy var coverFlowLayout: WDCollectionViewCoverFlowLayout = {
+        let layout = WDCollectionViewCoverFlowLayout()
+                let margin: CGFloat = 20
+                let collH: CGFloat = 200
+                let itemH = collH - margin * 2
+                let itemW = view.bounds.width - margin * 2 - 100
+                layout.itemSize = CGSize(width: itemW, height: itemH)
+                layout.minimumLineSpacing = 5
+                layout.minimumInteritemSpacing = 5
+                layout.sectionInset = UIEdgeInsets(top: 0, left: margin, bottom: 0, right: margin)
+                layout.scrollDirection = .horizontal
+
+        return layout
+    }()
 
 
 }
+
 
 
 extension ViewController: UICollectionViewDataSource,UICollectionViewDelegate {
